@@ -1,0 +1,54 @@
+[server]
+enableStaticServing = true
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# Base theme. Colours come from the semantic tokens in DESIGN.md; the same
+# values live in split_and_spell/theme.py, which applies the user's
+# Light / Dark / System choice at runtime.
+[theme]
+font = "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+baseFontSize = 16
+baseRadius = "8px"
+showWidgetBorder = true
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-400-normal.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-500-normal.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-600-normal.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-700-normal.woff2"
+weight = 700
+
+[theme.light]
+primaryColor = "#B84E19"
+backgroundColor = "#F7F5EF"
+secondaryBackgroundColor = "#F0EDE5"
+textColor = "#222320"
+borderColor = "#DEDCD3"
+linkColor = "#B84E19"
+
+[theme.dark]
+primaryColor = "#F0A06A"
+backgroundColor = "#1C1D1B"
+secondaryBackgroundColor = "#2D2E29"
+textColor = "#F3F1E9"
+borderColor = "#45473F"
+linkColor = "#F0A06A"
