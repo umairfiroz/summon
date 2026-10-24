@@ -1,0 +1,5 @@
+# Keep binary files byte-for-byte on every OS
+*.pdf binary
+*.png binary
+*.jpg binary
+*.woff2 binary
