@@ -9,7 +9,7 @@ gatherUsageStats = false
 toolbarMode = "minimal"
 
 # Base theme. Colours come from the semantic tokens in DESIGN.md; the same
-# values live in split_and_spell/theme.py, which applies the user's
+# values live in summon/theme.py, which applies the user's
 # Light / Dark / System choice at runtime.
 [theme]
 font = "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
