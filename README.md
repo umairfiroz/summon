@@ -2,6 +2,8 @@
 
 **Screenshots in. Calendar out.**
 
+**Try it live: [summon-calendar.streamlit.app](https://summon-calendar.streamlit.app)** (free hosting, so it can take about 30 seconds to wake up)
+
 Summon turns the plans buried in screenshots, photos, posters, university timetables, group
 chats and coursework PDFs into calendar events. You upload a file, check what the open-weight
 **Gemma 4** model found, and download one calendar file that works with Google Calendar, Apple
